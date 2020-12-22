@@ -1,0 +1,37 @@
+.li {
+    list-style-type: none
+}
+
+.btnDefault {
+    border         : none;
+    background     : transparent;
+    font-size      : 18px;
+    font-weight    : bold;
+    text-decoration: none;
+    color          : inherit;
+}
+
+.btnActive {
+    border         : none;
+    background     : transparent;
+    font-size      : 18px;
+    font-weight    : bold;
+    text-decoration: none;
+    color          : rgb(187, 46, 31);
+}
+
+.uls {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    padding        : 0
+}
+
+
+
+
+.grid {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-around;
+}

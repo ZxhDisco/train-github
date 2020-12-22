@@ -1,0 +1,79 @@
+.cradLight {
+    display      : block;
+    margin       : 10px 0;
+    width        : 250px;
+    padding      : 20px;
+    background   : rgba(0, 0, 0, 0.08);
+    border-radius: 3px
+}
+
+.Ranking {
+    text-align         : center;
+    font-size          : 35px;
+    font-Weight        : 300;
+    margin             : 20px;
+    display            : block;
+    margin-block-start : 20pz;
+    margin-inline-end  : 20pz;
+    margin-inline-start: 0px;
+    margin-inline-end  : 0px
+}
+
+.cardImg {
+    margin-bottom: 8px;
+    width        : 150px;
+    height       : 150px;
+    border-radius: 3px;
+    margin       : 0 auto;
+    display      : block
+}
+
+.cardTitle {
+    text-align         : center;
+    display            : block;
+    font-size          : 1.5em;
+    margin-block-start : 0.83em;
+    margin-block-end   : 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end  : 0px;
+    font-weight        : bold;
+}
+
+.cardA {
+    text-decoration: none;
+}
+
+.cardLink {
+    color          : rgb(187, 46, 31);
+    text-decoration: none;
+    font-weight    : bold;
+}
+
+.cardList {
+    margin   : 20px 0;
+    font-size: 20px;
+}
+
+.cardMan{
+    position: relative;
+    display: flex;
+}
+
+.cardListLi {
+    display    : flex;
+    align-items: center;
+    /*  居中对齐弹性盒子*/
+    margin     : 10px;
+}
+
+.icon {
+    font-size   : 22px;
+    width       : 22px;
+    height      : 22px;
+    margin-right: 10px;
+}
+
+.cardListA{
+    font-weight: 500;
+    color: inherit;
+}
